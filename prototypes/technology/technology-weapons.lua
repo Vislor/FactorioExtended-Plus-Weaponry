@@ -12,10 +12,11 @@ data:extend(
                     type = "unlock-recipe",
                     recipe = "gun-turret-mk2"
                 },
-                --[[ {
+                {
                     type = "unlock-recipe",
                     recipe = "shattering-bullet-magazine"
                 },
+                --[[ 
                 {
                     type = "unlock-recipe",
                     recipe = "shattering-shotgun-shell"

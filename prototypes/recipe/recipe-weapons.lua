@@ -12,6 +12,19 @@ data:extend(
     },
     results = {{type = "item", name = "gun-turret-mk2", amount = 1}}
   },
+  {
+    type = "recipe",
+    name = "shattering-bullet-magazine",
+    enabled = false,
+    energy_required = 5,
+    ingredients =
+    {
+      {type = "item", name = "copper-plate", amount = 2},
+      {type = "item", name = "titanium-alloy", amount = 2},
+      {type = "item", name = "piercing-rounds-magazine", amount = 1}
+    },
+    results = {{type = "item", name = "shattering-bullet-magazine", amount = 1}}
+  },
   --[[ {
     type = "recipe",
     name = "laser-turret-mk2",
@@ -25,19 +38,6 @@ data:extend(
       {"battery-equipment", 5}
     },
     result = "laser-turret-mk2"
-  },
-  {
-    type = "recipe",
-    name = "shattering-bullet-magazine",
-    enabled = false,
-    energy_required = 5,
-    ingredients =
-    {
-      {"copper-plate", 2},
-      {"titanium-alloy", 2},
-      {"piercing-rounds-magazine", 1}
-    },
-    result = "shattering-bullet-magazine"
   },
   {
     type = "recipe",
