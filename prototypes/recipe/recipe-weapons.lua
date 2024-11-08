@@ -7,14 +7,12 @@ data:extend(
     energy_required = 10,
     ingredients =
     {
-      {"gun-turret", 2},
-      {"titanium-alloy", 10}
+      {type = "item", name = "gun-turret", amount = 2},
+      {type = "item", name = "titanium-alloy", amount = 10}
     },
-    result = "gun-turret-mk2"
+    results = {{type = "item", name = "gun-turret-mk2", amount = 1}}
   },
-  
-  
-  {
+  --[[ {
     type = "recipe",
     name = "laser-turret-mk2",
     enabled = false,
@@ -126,5 +124,5 @@ data:extend(
     
     },
     result = "titanium-gate"
-  }
+  } ]]
 })

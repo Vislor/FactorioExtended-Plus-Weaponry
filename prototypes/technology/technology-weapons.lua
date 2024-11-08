@@ -5,20 +5,21 @@ data:extend(
             name = "turrets-2",
             icon = "__base__/graphics/technology/laser-turret.png",
             icon_size = 256,
+            localised_name = {"technology-name.turrets-2"},
             prerequisites = {"laser-turret", "titanium-processing"},
             effects = {
                 {
                     type = "unlock-recipe",
                     recipe = "gun-turret-mk2"
                 },
-                {
+                --[[ {
                     type = "unlock-recipe",
                     recipe = "shattering-bullet-magazine"
                 },
                 {
                     type = "unlock-recipe",
                     recipe = "shattering-shotgun-shell"
-                }
+                } ]]
             },
             unit = {
                 count = 150,
@@ -31,7 +32,7 @@ data:extend(
             },
             order = "a-j-c-a"
         },
-        {
+        --[[ {
             type = "technology",
             name = "laser-turrets-2",
             icon_size = 256,
@@ -138,7 +139,7 @@ data:extend(
                 time = 45
             },
             order = "a-j-c-d"
-        }
+        } ]]
     }
 )
 
