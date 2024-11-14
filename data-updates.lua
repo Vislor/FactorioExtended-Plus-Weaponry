@@ -54,17 +54,6 @@ if not data.raw["fluid-turret"]["flamethrower-turret"].next_upgrade then
     data.raw["fluid-turret"]["flamethrower-turret"].next_upgrade = "flamethrower-turret-mk2"
 end
 
--- laser-turret
-if not data.raw["electric-turret"]["laser-turret"].fast_replaceable_group then
-    data.raw["electric-turret"]["laser-turret"].fast_replaceable_group = "laser-turret"
-    data.raw["electric-turret"]["laser-turret-mk2"].fast_replaceable_group = "laser-turret"
-else
-    data.raw["electric-turret"]["laser-turret-mk2"].fast_replaceable_group = data.raw["electric-turret"]["laser-turret"].fast_replaceable_group
-end
-
-if not data.raw["electric-turret"]["laser-turret"].next_upgrade then
-    data.raw["electric-turret"]["laser-turret"].next_upgrade = "laser-turret-mk2"
-end
 ]]
 
 -- gun-turret
@@ -77,4 +66,16 @@ end
 
 if not data.raw["ammo-turret"]["gun-turret"].next_upgrade then
     data.raw["ammo-turret"]["gun-turret"].next_upgrade = "gun-turret-mk2"
+end
+
+-- laser-turret
+if not data.raw["electric-turret"]["laser-turret"].fast_replaceable_group then
+    data.raw["electric-turret"]["laser-turret"].fast_replaceable_group = "laser-turret"
+    data.raw["electric-turret"]["laser-turret-mk2"].fast_replaceable_group = "laser-turret"
+else
+    data.raw["electric-turret"]["laser-turret-mk2"].fast_replaceable_group = data.raw["electric-turret"]["laser-turret"].fast_replaceable_group
+end
+
+if not data.raw["electric-turret"]["laser-turret"].next_upgrade then
+    data.raw["electric-turret"]["laser-turret"].next_upgrade = "laser-turret-mk2"
 end

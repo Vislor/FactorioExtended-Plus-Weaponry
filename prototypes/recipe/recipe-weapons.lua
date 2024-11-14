@@ -25,20 +25,21 @@ data:extend(
     },
     results = {{type = "item", name = "shattering-bullet-magazine", amount = 1}}
   },
-  --[[ {
+  {
     type = "recipe",
     name = "laser-turret-mk2",
     enabled = false,
     energy_required = 20,
     ingredients =
     {
-      {"laser-turret", 2},
-      {"titanium-alloy", 10},
-      {"processing-unit", 10},
-      {"battery-equipment", 5}
+      {type = "item", name = "laser-turret", amount = 2},
+      {type = "item", name = "titanium-alloy", amount = 10},
+      {type = "item", name = "processing-unit", amount = 10},
+      {type = "item", name = "battery-equipment", amount = 5}
     },
-    result = "laser-turret-mk2"
+    results = {{type = "item", name = "laser-turret-mk2", amount = 1}}
   },
+  --[[ 
   {
     type = "recipe",
     name = "shattering-shotgun-shell",

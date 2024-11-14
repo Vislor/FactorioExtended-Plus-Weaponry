@@ -33,9 +33,10 @@ data:extend(
             },
             order = "a-j-c-a"
         },
-        --[[ {
+        {
             type = "technology",
             name = "laser-turrets-2",
+            localised_name = {"technology-name.laser-turrets-2"},
             icon_size = 256,
             icon = "__base__/graphics/technology/laser-turret.png",
             effects = {
@@ -44,7 +45,7 @@ data:extend(
                     recipe = "laser-turret-mk2"
                 }
             },
-            prerequisites = {"laser-turret", "titanium-processing", "advanced-electronics-2", "battery-equipment"},
+            prerequisites = {"laser-turret", "titanium-processing", "processing-unit", "battery-equipment"},
             unit = {
                 count = 400,
                 ingredients = {
@@ -57,6 +58,7 @@ data:extend(
             },
             order = "a-j-c"
         },
+        --[[ 
         {
             type = "technology",
             name = "iron-walls",

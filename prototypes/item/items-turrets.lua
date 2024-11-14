@@ -14,7 +14,8 @@ end
 
 local items = {
     {source = "gun-turret", name = "gun-turret-mk2", subgroup = "fb-weapons", order = "b-a", icon_name = "gun-turret-mk2.png", itype = "item"},
-    --[[ {source = "laser-turret", name = "laser-turret-mk2", subgroup = "fb-weapons", order = "b-b", icon_name = "laser-turret-mk2.png", itype = "item"},
+    {source = "laser-turret", name = "laser-turret-mk2", subgroup = "fb-weapons", order = "b-b", icon_name = "laser-turret-mk2.png", itype = "item"},
+    --[[ 
     {source = "flamethrower-turret", name = "flamethrower-turret-mk2", subgroup = "fb-weapons", order = "b-b", icon_name = "flamethrower-turret-mk2.png", itype = "item"} ]]
 }
 
